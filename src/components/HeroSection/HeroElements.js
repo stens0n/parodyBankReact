@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md';
+import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
@@ -55,9 +55,9 @@ export const HeroH1 = styled.h1`
     }
 `;
 
-export const HeroP =styled.div`
+export const HeroP = styled.div`
     margin-top: 24px;
-    color: #fff
+    color: #fff;
     font-size: 24px;
     text-align: center;
     max-width: 600px;
