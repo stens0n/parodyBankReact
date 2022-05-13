@@ -51,24 +51,24 @@ export const homeObjTwo = {
 
 export const homeObjThree = { 
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
    
-    topLine: 'Premium Bank',
+    topLine: 'Join Our Team',
    
-    headline: 'Unlimited transactions with zero fees',
+    headline: 'Creating an account is extremely easy',
     
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees nigga',
     
-    buttonLabel: 'Get Started',
+    buttonLabel: 'Start Now',
     
     imgStart: false,
     img: require('../../images/svg-3.svg').default,
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    alt: 'Paper',
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 
