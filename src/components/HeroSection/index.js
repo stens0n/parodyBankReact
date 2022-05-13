@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4'
-import { Button } from '../ButtonElement'
+import { Button } from '../ButtonElements'
 import {HeroContainer, 
         HeroBg, 
         VideoBg, 
@@ -24,10 +24,10 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={ Video } type='video/mp4' />
       </HeroBg>
       <HeroContent>
-          <HeroH1>Virtual Banking Made Easy</HeroH1>
+          <HeroH1>Stenson Banking Made Easy</HeroH1>
           <HeroP>
               Sign Up for A New Acount Today and receive $250 in credit towards your
-              next payment
+              next payment, you cunt
           </HeroP>
           <HeroBtnWrapper> 
               <Button 

@@ -14,7 +14,7 @@ from
 
 export const Button = styled( Link )`
     
-    border-radius: 50px
+    border-radius: 80px
     ;
     
     background: ${ ( { primary } ) => ( primary ? '#01BF71' : '#010606' )
@@ -24,7 +24,7 @@ export const Button = styled( Link )`
     white-space: nowrap
     ;
     
-    padding: ${ ( { big } ) => ( big ? '14px 48px' : '12px 30px' ) 
+    padding: ${ ( { big } ) => ( big ? '14px 100px' : '20px 85px' ) 
     }
     ;
     
