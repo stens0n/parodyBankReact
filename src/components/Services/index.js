@@ -1,4 +1,19 @@
-import React from 'react'
+import React from 'react';
+
+import Icon1 from '../../images/svg-1.svg'
+import Icon2 from '../../images/svg-2.svg'
+import Icon3 from '../../images/svg-3.svg'
+
+import {
+    ServicesContainer, 
+    ServicesH1,
+    ServicesWrapper,
+    ServicesH2, 
+    ServicesP,
+    ServicesCard,
+    ServicesIcon,
+
+    } from './ServicesElements'
 
 const Services = () => {
   return (
@@ -18,7 +33,7 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
                 <ServicesH2>Premium Benefits</ServicesH2>
-                <ServicesP>Unlock Our Special Services you bitch ass nigga bitch cunt</ServicesP>
+                <ServicesP>Unlock Our Special Services you bitch </ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>

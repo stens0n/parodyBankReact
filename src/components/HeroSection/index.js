@@ -24,10 +24,9 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={ Video } type='video/mp4' />
       </HeroBg>
       <HeroContent>
-          <HeroH1>Stenson Banking Made Easy</HeroH1>
+          <HeroH1>Stenson Crypto</HeroH1>
           <HeroP>
-              Sign Up for A New Acount Today and receive $250 in credit towards your
-              next payment, you cunt
+              Don't be a cunt and purchase the most valuable crypto currency in existence
           </HeroP>
           <HeroBtnWrapper> 
               <Button 
