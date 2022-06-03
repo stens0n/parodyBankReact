@@ -6,16 +6,27 @@ import { Button } from '../ButtonElements';
 
 import { 
     InfoContainer, 
+
     InfoWrapper, 
+
     InfoRow, 
+
     Column1, 
+
     Column2, 
+
     TextWrapper, 
+
     TopLine, 
+
     Heading, 
+
     SubTitle,
+
     BtnWrap,
+
     ImgWrap,
+
     Img
 
 } from './InfoElements';
@@ -24,18 +35,31 @@ import {
 
 const InfoSection = ({
     lightBg, 
+
     id, 
+
     imgStart,
+
     topLine, 
+
     lightText, 
+
     headline, 
+
     darkText, 
+
     description,
+
     buttonLabel, 
+
     img, 
+
     alt,
+
     primary,
+
     dark, 
+    
     dark2
 
 
