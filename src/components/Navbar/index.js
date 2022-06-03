@@ -29,7 +29,7 @@ const Navbar = ( { toggle } ) => {
     <>
       <Nav>
         <NavbarContainer>
-            <NavLogo to= '/' >Stenson🖕</NavLogo>
+            <NavLogo to= '/' >Stenson💰</NavLogo>
             <MobileIcon onClick= { toggle } >
                 <FaBars />
             </MobileIcon>

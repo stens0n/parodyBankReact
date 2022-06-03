@@ -1,13 +1,40 @@
 import React from 'react';
 
-import {FooterContainer,
-    FooterWrap,
-    FooterLinksContainer,
-    FooterLinksWrapper, 
-    FooterLinkItems,
-    FooterLinkTitle,
-    FooterLink} from './FooterElements';
 
+import {FaFacebook, 
+        
+        FaInstagram, 
+        
+        FaLinkedin} from 'react-icons/fa'
+
+
+import {FooterContainer,
+        
+        FooterWrap,
+        
+        FooterLinksContainer,
+        
+        FooterLinksWrapper, 
+        
+        FooterLinkItems,
+    
+        FooterLinkTitle,
+    
+        FooterLink,
+    
+        SocialMedia,
+        
+        SocialMediaWrap,
+    
+        SocialLogo,
+    
+        WebsiteRights,
+    
+        SocialIcons,
+    
+        SocialIconLink} from './FooterElements';
+
+        
 const Footer = () => {
   return (
     <FooterContainer>
@@ -47,6 +74,31 @@ const Footer = () => {
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
+            <SocialMedia>
+                <SocialMediaWrap> 
+                    <SocialLogo to='/'>
+                        Stenson
+                    </SocialLogo>
+                    <WebsiteRights>Stenson © {new Date().getFullYear()}
+                     <br/>All rights reserved
+                     <br/>
+                     This is a parody website</WebsiteRights>
+                    <SocialIcons> 
+                        <SocialIconLink href='//www.Facebook.com' target='_blank' 
+                        aria-label='Facebook'> 
+                            <FaFacebook />
+                        </SocialIconLink>
+                        <SocialIconLink href='//www.Instagram.com' target='_blank' 
+                        aria-label='Instagram'> 
+                            <FaInstagram />
+                        </SocialIconLink>
+                        <SocialIconLink href='//www.linkedin.com/in/anthony-stenson-b33472217/' target='_blank' 
+                        aria-label='Linkedin'> 
+                            <FaLinkedin />
+                        </SocialIconLink>
+                    </SocialIcons>
+                </SocialMediaWrap>
+            </SocialMedia>
         </FooterWrap>
     </FooterContainer>
   )

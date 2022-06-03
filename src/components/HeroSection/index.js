@@ -1,14 +1,22 @@
 import React, {useState} from 'react';
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements'
 import {HeroContainer, 
+
         HeroBg, 
+
         VideoBg, 
+
         HeroContent, 
+
         HeroH1, 
+
         HeroP,
+
         HeroBtnWrapper, 
+
         ArrowForward,
+
         ArrowRight} from './HeroElements';
 
 const HeroSection = () => {
@@ -24,9 +32,9 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={ Video } type='video/mp4' />
       </HeroBg>
       <HeroContent>
-          <HeroH1>Stenson Crypto</HeroH1>
+          <HeroH1>Stenson Bank</HeroH1>
           <HeroP>
-              Don't be a cunt and purchase the most valuable crypto currency in existence
+              The most reliable and profitable online banking of all time
           </HeroP>
           <HeroBtnWrapper> 
               <Button 

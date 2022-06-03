@@ -172,6 +172,8 @@ export const HeroBtnWrapper = styled.div`
 
     align-items: center;
 
+    
+
 `;
 
 

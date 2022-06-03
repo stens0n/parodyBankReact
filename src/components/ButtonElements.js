@@ -17,7 +17,7 @@ export const Button = styled( Link )`
     border-radius: 80px
     ;
     
-    background: ${ ( { primary } ) => ( primary ? '#01BF71' : '#010606' )
+    background: ${ ( { primary } ) => ( primary ? '#63FFFD' : '#010606' )
     }
     ;
     
@@ -62,7 +62,7 @@ export const Button = styled( Link )`
         transition: all 0.2s ease-in-out
         ;
         
-        background: ${ ( { primary } ) => ( primary ? '#fff' : '#01BF71' ) 
+        background: ${ ( { primary } ) => ( primary ? '#fff' : '#63FFFD' ) 
         }
         ;
     
