@@ -80,9 +80,7 @@ const Footer = () => {
                         Stenson
                     </SocialLogo>
                     <WebsiteRights>Stenson © {new Date().getFullYear()}
-                     <br/>All rights reserved
-                     <br/>
-                     This is a parody website</WebsiteRights>
+                     <br/>All rights reserved</WebsiteRights>
                     <SocialIcons> 
                         <SocialIconLink href='//www.Facebook.com' target='_blank' 
                         aria-label='Facebook'> 
