@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import  { FaBars } from 'react-icons/fa';
 
 
-import { IconContext } from 'react-icons/lib'
+import { IconContext } from 'react-icons/lib';
 
 
 import { animateScroll as scrollyfortress } from 'react-scroll';
@@ -61,7 +61,7 @@ const Navbar = ( { toggle } ) => {
 
       scrollyfortress.scrollToTop();
 
-  }
+  };
 
 
   return (
