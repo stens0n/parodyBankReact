@@ -15,7 +15,7 @@ export const Container = styled.div`
     position: fixed;
     background: linear-gradient(
         107deg,
-        rgba(1, 147, 86, 1) 0%,
+        rgba(1, 147, 147, 1) 0%,
         rgba(10, 201, 122, 1) 100%
     );
 `;
@@ -103,7 +103,7 @@ export const FormInput = styled.input`
 
 
 export const FormButton = styled.button`
-    background: #01bf71;
+    background: #019393;
     padding: 16px 0;
     border: none;
     border-radius: 4px;

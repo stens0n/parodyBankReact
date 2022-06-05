@@ -78,7 +78,8 @@ const InfoSection = ({
                     
                     <br></br>
                     <BtnWrap>
-                        <Button to='home' 
+                        <Button 
+                        to='home' 
                         smooth={true}
                         duration={500}
                         spy={true}
